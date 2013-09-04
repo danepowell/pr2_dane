@@ -1,5 +1,5 @@
 <launch>
-  <param name="omni_im/topic_name" value="pr2_marker_control_transparent" />
+  <param name="omni_im/topic_name" value="interactive_gripper" />
   <param name="omni_im/fixed_frame" value="/odom_combined" />
   <param name="omni_im/control_frame" value="/base_link" />
   <include file="$(find omni_im)/launch/omni_im.launch" />
