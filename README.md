@@ -1,4 +1,7 @@
 pr2_dane
 ========
 
-cfg and launch files for launching pr2 and omni_im demos
+Integrates pr2_interactive_manipulation_frontend and omni_im
+
+After you've spun up pr2_interactive_manipulation_frontend and all requisite components, simply:
+roslaunch pr2_dane pr2_omni_im.launch
